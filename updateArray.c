@@ -1,7 +1,8 @@
 #include<stdio.h>
 
-    void display(int arr[], int size);
-    int updateOperation(int arr[],int index, int size, int value);
+void display(int arr[], int size);
+int updateOperation(int arr[],int index, int size, int value);
+
 int main()
 {   
 
