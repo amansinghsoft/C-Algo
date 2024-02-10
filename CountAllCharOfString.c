@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include<stdbool.h>
+#include <stdbool.h>
 bool isAvalible(char c, char store[]);
 
 int main(){

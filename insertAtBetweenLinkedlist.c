@@ -89,6 +89,7 @@ int main()
     head =insertFirst(head,62);
     head =insertAtBetween(head,68,1);
     head =insertAtEnd(head,34);
+    traversal(head);
     insertAtAnyWhere(head,second,89);
     traversal(head);
 
