@@ -1,12 +1,13 @@
+//
 #include<stdio.h>
 #include<stdbool.h>
-bool isPelendrom(int number);
+bool isPalindrome(int number);
 int main(){
     int num;
     printf("Enter the number Which you want to check :");
     scanf("%d",&num);
     
-if (isPelendrom(num))
+if (isPalindrome(num))
 {
     printf("Give number is Pelendrom .");
 }else{
@@ -15,7 +16,7 @@ if (isPelendrom(num))
 
     return 0;
 }
-bool isPelendrom(int number){
+bool isPalindrome(int number){
     int temp=0, reminder=0;
     int original=number;
 
