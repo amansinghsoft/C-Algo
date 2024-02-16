@@ -1,4 +1,4 @@
-//
+// number Palindrome : 11,11,121,131........
 #include<stdio.h>
 #include<stdbool.h>
 bool isPalindrome(int number);

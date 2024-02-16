@@ -1,34 +1,37 @@
 #include<stdio.h>
 #include<string.h>
 
+void convertedString(char arr[]);
 void main(){
     char str[100];
-    printf("Enter the stringyou want to convert :");
+    printf("Enter the string you want to convert :");
     gets(str);
 
-    for (int i = 0; i < strlen(str); i++)
+    convertedString(str);
+    
+}
+void convertedString(char arr[]){
+    for (int i = 0; i < strlen(arr); i++)
     {
         if (i==0)
         {
-            if (str[i]>='a' && str[i]<='z')
+            if (arr[i]>='a' && arr[i]<='z')
             {
-                str[i]=str[i]-32;
-                printf("%c",str[i]);
+                arr[i]=arr[i]-32;
+                printf("%c",arr[i]);
             }
             
-        }else if (str[i-1]==' ')
+        }else if (arr[i-1]==' ')
         { 
-            if (str[i]>='a' && str[i]<='z')
+            if (arr[i]>='a' && arr[i]<='z')
+            
             {
-                str[i]=str[i]-32;
-                printf("%c",str[i]);
-            }
-            
-            
+                arr[i]=arr[i]-32;
+                printf("%c",arr[i]);
+            }      
         }else{
-            printf("%c",str[i]);
+            printf("%c",arr[i]);
         }
 
     }
-    
 }
