@@ -4,17 +4,13 @@ long decimalToBinary(long num);
 
 int main()
 {
-    long num1,num2;
+    long num1;
     long binary;
     printf("Enter 1st number in Decimal : ");
     scanf("%ld",&num1);
-    printf("Enter 2nd number in Decimal : ");
-    scanf("%ld",&num2);
-
-      decimalToBinary(num1);
-      decimalToBinary(num2);
    
-
+      decimalToBinary(num1);
+   
     return 0;
 }
 long decimalToBinary(long num)
