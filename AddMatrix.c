@@ -4,7 +4,7 @@ int main()
 {
     int mat1[10][10],res[10][10],mat2[10][10];
     int i,j,rows,columns;
-    
+
     printf("Enter the value of  Rowes and Column :");
     scanf("%d%d",&rows,&columns);
    
@@ -17,6 +17,7 @@ int main()
     }
         printf("\n");
     }
+
     printf("Enter the value of 2nd array :\n");
     for ( i = 0; i < rows; i++)
     { 
@@ -44,5 +45,6 @@ int main()
     }
         printf("\n");
     }
+
     return 0;
 }
