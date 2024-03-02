@@ -47,7 +47,7 @@ int main()
     s->arr = (int *)malloc(s->size * sizeof(int));
     
     s->arr[0] = 7;
-    s->top++;
+    s->top++; 
 
         // Check if stack is empty
     if(isEmpty(s)){
